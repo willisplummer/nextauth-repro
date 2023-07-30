@@ -6,7 +6,7 @@ services:
       context: ./
       target: production
     env_file: .env
-    container_name: next
+    container_name: next-auth-repro
     restart: always
     ports:
       - "3000:3000"
